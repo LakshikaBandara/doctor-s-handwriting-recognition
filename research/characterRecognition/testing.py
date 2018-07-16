@@ -4,7 +4,7 @@ import numpy as np
 import cv2
 import os
 from test_network import identifyCharacter
-from preProcessing import preProcessing
+from characterRecognition.preProcessing import preProcessing
 
 MIN_CONTOUR_AREA = 100
 
@@ -23,6 +23,7 @@ def train(img):
     cv2.imshow("Image", trainImage)
 
     imgThresh = preProcessing.basicProcess(trainImage)
+
     key = cv2.waitKey(0)
     preProcessedImg = imgThresh.copy()
 
@@ -30,6 +31,7 @@ def train(img):
         preProcessedImg = preProcessing.cursiveChar(imgThresh)  # make a copy of the thresh image, this in necessary b/c findContours modifies the image
 
     elif key == 62: #if normal character press >
+
         preProcessedImg = preProcessing.normalChar(imgThresh)  # make a copy of the thresh image, this in necessary b/c findContours modifies the image
 
     imgContours, npaContours, npaHierarchy = cv2.findContours(preProcessedImg,
@@ -44,6 +46,7 @@ def train(img):
     intClassifications = []  # declare empty classifications list, this will be our list of how we are classifying our chars from user input, we will write to file at the end
 
     # possible chars we are interested in are digits 0 through 9, put these in list intValidChars
+
     intValidChars = [ord('0'), ord('1'), ord('2'), ord('3'), ord('4'), ord('5'), ord('6'), ord('7'), ord('8'), ord('9'),
                      ord('a'), ord('b'), ord('c'), ord('d'), ord('e'), ord('f'), ord('g'), ord('h'), ord('i'), ord('j'),
                      ord('k'), ord('l'), ord('m'), ord('n'), ord('o'), ord('p'), ord('q'), ord('r'), ord('s'), ord('t'),
@@ -66,32 +69,41 @@ def train(img):
             imgROIResized = cv2.resize(imgROI, (RESIZED_IMAGE_WIDTH,
                                                 RESIZED_IMAGE_HEIGHT))  # resize image, this will be more consistent for recognition and storage
 
-            cv2.imwrite("testData/segment.jpg", imgROIResized)
-            cv2.imshow("training image.png",
+            cv2.imwrite("segment.jpg", imgROIResized)
+            cv2.imshow("training image",
                        trainImage)  # show training numbers image, this will now have red rectangles drawn on it
             charLable = identifyCharacter()
             intChar = cv2.waitKey(0)
+            print(intChar)
 
             if intChar == 27:  # if esc key was pressed
                 sys.exit()  # exit program
-            elif intChar == ord('/'):  # else if the char is in the list of chars we are looking for . . .
+            elif intChar == 13:  # else if the char is in the list of chars we are looking for . . .
 
                 intClassifications.append(
-                    charLable)  # append classification char to integer list of chars (we will convert to float later before writing to file)
+                    ord(charLable))  # append classification char to integer list of chars (we will convert to float later before writing to file)
 
                 npaFlattenedImage = imgROIResized.reshape((1,
                                                            RESIZED_IMAGE_WIDTH * RESIZED_IMAGE_HEIGHT))  # flatten image to 1d numpy array so we can write to file later
                 npaFlattenedImages = np.append(npaFlattenedImages, npaFlattenedImage,
                                                0)  # add current flattened impage numpy array to list of flattened image numpy arrays
+            elif intChar in intValidChars:  # else if the char is in the list of chars we are looking for . . .
+
+                intClassifications.append(
+                    intChar)  # append classification char to integer list of chars (we will convert to float later before writing to file)
+
+                npaFlattenedImage = imgROIResized.reshape((1,
+                                                           RESIZED_IMAGE_WIDTH * RESIZED_IMAGE_HEIGHT))  # flatten image to 1d numpy array so we can write to file later
+                npaFlattenedImages = np.append(npaFlattenedImages, npaFlattenedImage,
+                                               0)
             # end if
         # end if
     # end for
 
-    fltClassifications = np.array(intClassifications,
-                                  np.float32)  # convert classifications list of ints to numpy array of floats
+    fltClassifications = np.array(intClassifications,np.float32)  # convert classifications list of ints to numpy array of floats
 
     npaClassifications = fltClassifications.reshape(
-        (fltClassifications.size, 1))  # flatten numpy array of floats to 1d so we can write to file later
+    (fltClassifications.size, 1))  # flatten numpy array of floats to 1d so we can write to file later
 
     clasfile = open('classifications.txt', 'a')
     np.savetxt(clasfile, npaClassifications)
@@ -105,4 +117,3 @@ def train(img):
     cv2.destroyAllWindows()  # remove windows from memory
 
     return
-

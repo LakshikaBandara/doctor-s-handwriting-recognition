@@ -32,21 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="train_network.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/train_network.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="49" column="46" lean-forward="false" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DataGenerate.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataGenerate.py">
+        <entry file="file://$PROJECT_DIR$/characterRecognition/DataGenerate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="142">
+              <caret line="108" column="20" lean-forward="true" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
               <folding>
                 <element signature="e#20#30#0" expanded="true" />
               </folding>
@@ -54,14 +44,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_network.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_network.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_network.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="45" column="0" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="45" selection-end-column="0" />
-              <folding>
-                <element signature="e#145#195#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GUI.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GUI.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,9 +67,21 @@
       <file leaf-file-name="cnn.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyimagesearch/cnn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="102">
+              <caret line="14" column="60" lean-forward="false" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/characterRecognition/testing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="864">
+              <caret line="98" column="20" lean-forward="true" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
+              <folding>
+                <element signature="e#20#30#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,6 +103,9 @@
       <find>imgThreshCopy</find>
       <find>acc</find>
       <find>96</find>
+      <find>prob</find>
+      <find>train</find>
+      <find>out</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -101,17 +114,22 @@
         <option value="$PROJECT_DIR$/new.py" />
         <option value="$PROJECT_DIR$/asd.doc.npy" />
         <option value="$PROJECT_DIR$/os_ececute.py" />
-        <option value="$PROJECT_DIR$/GUI.py" />
         <option value="$PROJECT_DIR$/testing.py" />
         <option value="$PROJECT_DIR$/postProcessing.py" />
         <option value="$PROJECT_DIR$/characterRecognition/CNN/train_network.py" />
         <option value="$PROJECT_DIR$/characterRecognition/postProcessing.py" />
-        <option value="$PROJECT_DIR$/characterRecognition/DataGenerate.py" />
         <option value="$PROJECT_DIR$/preProcessing.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/train_network.py" />
-        <option value="$PROJECT_DIR$/DataGenerate.py" />
         <option value="$PROJECT_DIR$/test_network.py" />
+        <option value="$PROJECT_DIR$/test_network.py" />
+        <option value="$PROJECT_DIR$/DataGenerate.py" />
+        <option value="$PROJECT_DIR$/DataGenerate.py" />
+        <option value="$PROJECT_DIR$/characterRecognition/CNN/test_network.py" />
+        <option value="$PROJECT_DIR$/characterRecognition/DataGenerate.py" />
+        <option value="$PROJECT_DIR$/characterRecognition/test_network.py" />
+        <option value="$PROJECT_DIR$/GUI.py" />
+        <option value="$PROJECT_DIR$/characterRecognition/testing.py" />
       </list>
     </option>
   </component>
@@ -121,7 +139,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="72" />
     <option name="y" value="20" />
     <option name="width" value="1284" />
@@ -142,29 +160,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="My test KNN open cv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My test KNN open cv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My test KNN open cv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My test KNN open cv" type="462c0819:PsiDirectoryNode" />
-              <item name="characterRecognition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My test KNN open cv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My test KNN open cv" type="462c0819:PsiDirectoryNode" />
-              <item name="testData" type="462c0819:PsiDirectoryNode" />
+              <item name="research" type="b2602c69:ProjectViewProjectNode" />
+              <item name="research" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,11 +183,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lakshika\Desktop\research" />
+      <recent name="C:\Users\Lakshika\Desktop\research\characterRecognition" />
+      <recent name="C:\Users\Lakshika\Desktop\research\pyimagesearch" />
+      <recent name="C:\Users\Lakshika\Desktop\research\characterRecognition\CNN" />
       <recent name="C:\Users\Lakshika\Desktop\My test KNN open cv\textRecognition" />
-      <recent name="C:\Users\Lakshika\Desktop\My test KNN open cv" />
-      <recent name="C:\Users\Lakshika\Desktop\My test KNN open cv\characterRecognition\CNN" />
-      <recent name="C:\Users\Lakshika\Desktop\My test KNN open cv\characterRecognition" />
-      <recent name="C:\Users\Lakshika\Desktop\My test KNN open cv\icons" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\My test KNN open cv" />
@@ -197,7 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DataGenerate (2)">
+  <component name="RunManager" selected="Python.GUI">
     <configuration name="DataGenerate (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -209,8 +217,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="My test KNN open cv" />
-      <option name="SCRIPT_NAME" value="C:\Users\Lakshika\Desktop\My test KNN open cv\DataGenerate.py" />
+      <module name="research" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/characterRecognition/DataGenerate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -227,14 +235,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="My test KNN open cv" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataGenerate.py" />
+      <module name="research" />
+      <option name="SCRIPT_NAME" value="C:\Users\Lakshika\Desktop\research\characterRecognition\DataGenerate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="DataGenerate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -245,26 +253,26 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="My test KNN open cv" />
-      <option name="SCRIPT_NAME" value="C:\Users\Lakshika\Desktop\My test KNN open cv\textRecognition\test.py" />
+      <module name="research" />
+      <option name="SCRIPT_NAME" value="C:\Users\Lakshika\Desktop\research\characterRecognition\DataGenerate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="train_network (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="GUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/characterRecognition/CNN" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="My test KNN open cv" />
-      <option name="SCRIPT_NAME" value="C:\Users\Lakshika\Desktop\My test KNN open cv\train_network.py" />
+      <module name="research" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,26 +290,113 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="My test KNN open cv" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_network.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Lakshika\Desktop\research\characterRecognition\train_network.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="My test KNN open cv" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="My test KNN open cv" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="My test KNN open cv" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="My test KNN open cv" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="My test KNN open cv" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="My test KNN open cv" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.train_network (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.train_network (2)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.DataGenerate (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.DataGenerate (2)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test" />
+      <item index="0" class="java.lang.String" itemvalue="Python.train_network (2)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.DataGenerate (2)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.DataGenerate" />
+      <item index="3" class="java.lang.String" itemvalue="Python.GUI" />
+      <item index="4" class="java.lang.String" itemvalue="Python.DataGenerate (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.DataGenerate (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.train_network (2)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.DataGenerate (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.train_network (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.GUI" />
+        <item index="1" class="java.lang.String" itemvalue="Python.DataGenerate (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.DataGenerate (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.DataGenerate" />
+        <item index="4" class="java.lang.String" itemvalue="Python.train_network (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -322,25 +417,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
+    <frame x="54" y="-8" width="1320" height="784" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24309815" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21165644" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24590164" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38748136" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29061103" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39940387" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3888889" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -354,18 +450,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DataGenerate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/textRecognition/test.py" />
     <entry file="file://$PROJECT_DIR$/os_ececute.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -374,7 +463,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataGenerate.py">
+    <entry file="file://$PROJECT_DIR$/characterRecognition/DataGenerate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="16" column="66" lean-forward="false" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
@@ -403,7 +492,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataGenerate.py">
+    <entry file="file://$PROJECT_DIR$/characterRecognition/DataGenerate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="16" column="66" lean-forward="false" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
@@ -425,7 +514,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataGenerate.py">
+    <entry file="file://$PROJECT_DIR$/characterRecognition/DataGenerate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="16" column="87" lean-forward="true" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
@@ -440,7 +529,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataGenerate.py">
+    <entry file="file://$PROJECT_DIR$/characterRecognition/DataGenerate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1564">
           <caret line="95" column="32" lean-forward="false" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="32" />
@@ -493,11 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testData/image.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testData/lak.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -533,23 +617,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/textRecognition/test.py" />
-    <entry file="file://$PROJECT_DIR$/GUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/characterRecognition/postProcessing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plot.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resized">
@@ -559,15 +631,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyimagesearch/cnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/preProcessing.py">
+    <entry file="file://$PROJECT_DIR$/characterRecognition/preProcessing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -584,26 +648,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classifications.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/textRecognition/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/characterRecognition/testing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/plot.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testData/segment.jpg">
@@ -611,18 +658,32 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_network.py">
+    <entry file="file://$PROJECT_DIR$/testData/image.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/characterRecognition/CNN/segment.jpg" />
+    <entry file="file://$PROJECT_DIR$/pyimagesearch/cnn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="49" column="46" lean-forward="false" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+        <state relative-caret-position="102">
+          <caret line="14" column="60" lean-forward="false" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataGenerate.py">
+    <entry file="file://$PROJECT_DIR$/characterRecognition/train_network.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="164">
+          <caret line="55" column="19" lean-forward="false" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/characterRecognition/DataGenerate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="108" column="20" lean-forward="true" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
           <folding>
             <element signature="e#20#30#0" expanded="true" />
           </folding>
@@ -631,11 +692,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_network.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classifications.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/characterRecognition/testing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="98" column="20" lean-forward="true" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
           <folding>
-            <element signature="e#145#195#0" expanded="true" />
+            <element signature="e#20#30#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
